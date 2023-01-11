@@ -1,4 +1,4 @@
-# Fxxk-SHARP-Apps
+# Fxxk-SHARP-Apps(beta)
 AndroidのSHARPのゴミアプリを消すことだけに集中したソフトです。
 一応削除したらまずそうなアプリは削除しないようにしてますが、問題が発生する可能性があります。
 
