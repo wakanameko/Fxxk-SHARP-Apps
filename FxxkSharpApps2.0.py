@@ -13,6 +13,7 @@ print(ur.release)
 print(ur.version)
 print(ur.processor)
 
+if ur.release == 'vista':messagebox.showerror('Attention','このバージョンのWindowsは対応していません。')
 if ur.release == 'xp':messagebox.showerror('Attention','このバージョンのWindowsは対応していません。')
 if ur.release == '2000':messagebox.showerror('Attention','このバージョンのWindowsは対応していません。')
 if ur.release == 'me':messagebox.showerror('Attention','このバージョンのWindowsは対応していません。')
@@ -24,7 +25,6 @@ print('Developer @wakanameko2')
 
 baseGround = tk.Tk()
 
-if ur.release == 'vista':baseGround.geometry('600x75')
 if ur.release == '7':baseGround.geometry('600x75')
 if ur.release == '8':baseGround.geometry('600x75')
 if ur.release == '8.1':baseGround.geometry('600x75')
@@ -641,7 +641,6 @@ def btn4_click():
 def btn_click_adb():
     webbrowser.open('https://dl.google.com/android/repository/platform-tools_r33.0.1-darwin.zip')
 
-if ur.release == 'vista':label1 = tk.Label(baseGround, text='このソフトフェアを使用するにはADBが必要です。').place(x=253,y=48)
 if ur.release == '7':label1 = tk.Label(baseGround, text='このソフトフェアを使用するにはADBが必要です。').place(x=253,y=48)
 if ur.release == '2008ServerR2':label1 = tk.Label(baseGround, text='このソフトフェアを使用するにはADBが必要です。').place(x=238,y=41)
 if ur.release == '8':label1 = tk.Label(baseGround, text='このソフトフェアを使用するにはADBが必要です。').place(x=290,y=48)
@@ -666,8 +665,6 @@ if ur.version == '10.0.19045':label1 = tk.Label(baseGround, text='このソフ�
 if ur.version == '10.0.22000':label1 = tk.Label(baseGround, text='このソフトフェアを使用するにはADBが必要です。').place(x=270,y=43)
 if ur.version == '10.0.22621':label1 = tk.Label(baseGround, text='このソフトフェアを使用するにはADBが必要です。').place(x=270,y=43)
 
-if ur.release == 'vista':button_adb = tk.Button(
-    baseGround, text='Download', command=btn_click_adb).place(x= 530, y=41)
 if ur.release == '7':button_adb = tk.Button(
     baseGround, text='Download', command=btn_click_adb).place(x= 530, y=41)
 if ur.release == '2008ServerR2':button_adb = tk.Button(
