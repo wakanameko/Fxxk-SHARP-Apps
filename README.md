@@ -30,9 +30,9 @@ AndroidのSHARPのゴミアプリを消すことだけに集中したソフト�
 |Windows2.x    |WindowsNTServerVersion3.5        |                   |
 |Windows1.x    |WindowsNTAdvancedServerVersion3.1|                   |
 
-# 使い方 - How to Use
+# 使い方 - Usage
 ボタンを押したらいいと思うよ。
 Adbがインストールされていない場合は、UI右下のダウンロードボタンからインストールしてください。インストール方法は調べてください。
 
-# 問い合わせ
-@wakanameko2のDMにお願いします。
+# 動作確認環境
+AQUOS sense3 (Docomo版)
